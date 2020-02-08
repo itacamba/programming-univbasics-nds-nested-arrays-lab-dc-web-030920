@@ -30,6 +30,8 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   sorted_conventional = CONVENTIONAL_PRODUCE.sort
   sorted_organic = ORGANIC_PRODUCE.sort
+  array_of_arrays = [sorted_conventional, sorted_organic]
+  array_of_arrays.sort
   p array_of_arrays
 end
 
